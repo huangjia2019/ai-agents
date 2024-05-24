@@ -10,6 +10,7 @@ beautifulsoup4==4.12.3
 bert-score==0.3.13
 certifi==2024.2.2
 cffi==1.16.0
+chardet==5.2.0
 charset-normalizer==3.3.2
 click==8.1.7
 cohere==4.47
