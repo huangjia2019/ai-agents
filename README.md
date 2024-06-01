@@ -11,12 +11,12 @@
 ## GPT图解
 ![GPT图解](./pic/GPT图解.jpg)
 说明：这本书详细解释了GPT模型的内部结构和工作原理。
-[购买链接](https://item.jd.com/14600442.html)
+[购买链接](https://item.jd.com/13958977.html)
 
 ## 动手做Agent
 ![动手做Agent](./pic/动手做Agent.jpg)
 说明：这本书指导读者如何从零开始动手制作AI Agent。
-[购买链接](https://item.jd.com/13958977.html)
+[购买链接](https://item.jd.com/14600442.html)
 
 ## 机器学习
 ![机器学习](./pic/机器学习.jpg)  
@@ -24,7 +24,6 @@
 [购买链接](https://item.jd.com/12763913.html)
 
 ## 数据分析
-<img src="./pic/数据分析.jpg" alt="数据分析" width="800">    
-说明：这本书介绍了数据分析的基本方法和工具。
-[购买链接](https://item.jd.com/13335199.html)
+<img src="./pic/数据分析.jpg" alt="数据分析" width="800">   
 
+说明：这本书介绍了数据分析的基本方法和工具。[购买链接](https://item.jd.com/13335199.html)
