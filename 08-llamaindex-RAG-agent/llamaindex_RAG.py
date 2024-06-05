@@ -2,10 +2,10 @@
 from llama_index.core import SimpleDirectoryReader
 
 A_docs = SimpleDirectoryReader(
-    input_files=["./data/电商A-Third Quarter 2023 Results.pdf"]
+    input_files=["08-llamaindex-RAG-agent\电商B-Third Quarter 2023 Results.pdf"]
 ).load_data()
 B_docs = SimpleDirectoryReader(
-    input_files=["./data/电商B-Third Quarter 2023 Results.pdf"]
+    input_files=["08-llamaindex-RAG-agent\电商B-Third Quarter 2023 Results.pdf"]
 ).load_data()
 
 
@@ -22,6 +22,7 @@ B_index.storage_context.persist(persist_dir="./storage/B")
 
 
 # 从本地读取索引
+from llama_index.core import load_index_from_storage
 try:
     storage_context = StorageContext.from_defaults(
         persist_dir="./storage/A"

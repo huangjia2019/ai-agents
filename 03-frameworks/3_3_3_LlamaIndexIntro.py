@@ -2,8 +2,8 @@
 from dotenv import load_dotenv
 load_dotenv()  
 
-from llama_index import VectorStoreIndex, SimpleDirectoryReader  
-documents = SimpleDirectoryReader("书稿代码\\03\docs").load_data()
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader  
+documents = SimpleDirectoryReader("03-frameworks\docs").load_data()
 
 index = VectorStoreIndex.from_documents(documents)
 

@@ -1,6 +1,6 @@
 # 设置API Key
 import os
-os.environ["OpenAI_API_KEY"] = 'Your OpenAI API Key
+os.environ["OpenAI_API_KEY"] = 'Your OpenAI API Key'
 
 # 导入所需的库和模块
 from collections import deque
