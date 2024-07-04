@@ -53,6 +53,7 @@ first_response = client.chat.completions.create(
 )
 print("first_response:", first_response)
 response_message = first_response.choices[0].message
+
 tool_calls = response_message.tool_calls
 
 # 如果返回结果要求用Function Call，就调用函数，并把函数的查询结果附加到消息中
