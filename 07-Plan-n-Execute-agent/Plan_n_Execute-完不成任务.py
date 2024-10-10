@@ -44,7 +44,7 @@ def schedule_delivery(order_id: int, delivery_date: str):
     """
     # 在实际应用中这里应该是对接配送系统的过程
     return f"订单 {order_id} 已安排在 {delivery_date} 配送"
-tools = [check_inventory,calculate_price]
+tools = [check_inventory, calculate_price, schedule_delivery]
 
 # 设置大模型
 from langchain.chat_models import ChatOpenAI

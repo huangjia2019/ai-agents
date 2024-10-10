@@ -19,7 +19,7 @@ content_creation_tasks = ["""利用提供的信息，撰写一篇吸引人的博
 # 创建Agent角色
 inventory_assistant = autogen.AssistantAgent(
     name="库存管理助理",
-    llm_config llm_config,
+    llm_config=llm_config,
 )
 market_research_assistant = autogen.AssistantAgent(
     name="市场研究助理",

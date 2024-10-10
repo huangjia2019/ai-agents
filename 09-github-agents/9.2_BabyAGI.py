@@ -54,7 +54,7 @@ class TaskCreationChain(LLMChain):
 
 
 # 任务优先级链
-class TaskPrioritizationChain(llmChain):
+class TaskPrioritizationChain(LLMChain):
     """负责任务优先级排序的链"""
     @classmethod
     def from_llm(cls, llm: BaseLLM, verbose: bool = True) -> LLMChain:
