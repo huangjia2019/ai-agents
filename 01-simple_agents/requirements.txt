@@ -1,0 +1,2 @@
+# 此文件已被 pyproject.toml 替代
+# 请使用: uv add <package_name> 来添加依赖

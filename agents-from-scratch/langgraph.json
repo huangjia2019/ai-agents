@@ -1,0 +1,16 @@
+{
+    "dockerfile_lines": [],
+    "graphs": {
+      "langgraph101": "./src/email_assistant/langgraph_101.py:app",
+      "email_assistant": "./src/email_assistant/email_assistant.py:email_assistant",
+      "email_assistant_hitl": "./src/email_assistant/email_assistant_hitl.py:email_assistant",
+      "email_assistant_hitl_memory": "./src/email_assistant/email_assistant_hitl_memory.py:email_assistant",
+      "email_assistant_hitl_memory_gmail": "./src/email_assistant/email_assistant_hitl_memory_gmail.py:email_assistant",
+      "cron": "./src/email_assistant/cron.py:graph"
+    },
+    "python_version": "3.11",
+    "env": ".env",
+    "dependencies": [
+      "."
+    ]
+  }
