@@ -1,5 +1,0 @@
-langgraph
-langchain-core
-langchain-community
-langchain-openai
-trustcall
